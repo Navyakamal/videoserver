@@ -1,0 +1,127 @@
+{
+  "videos": [
+    {
+      "title": "Here we start our road trip",
+      "coverImg": "https://i.ytimg.com/vi/xZdFnFS1KlI/sddefault.jpg",
+      "videoUrl": "https://www.youtube.com/embed/xZdFnFS1KlI",
+      "id": 5
+    },
+    {
+      "title": "All The Spider-Men Discover Their Powers",
+      "coverImg": "https://www.looper.com/img/gallery/all-of-spider-mans-powers-explained/l-intro-1645123488.jpg",
+      "videoUrl": "https://www.youtube.com/embed/G0edEjt4Lzo",
+      "id": 6
+    },
+    {
+      "title": "Iktara Full Video - Wake Up Sid",
+      "coverImg": "https://i.ytimg.com/vi/ZlOZktsODpA/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/embed/fSS_R91Nimw",
+      "id": 7
+    },
+    {
+      "title": "Kun Faya Kun Full Video Song Rockstar",
+      "coverImg": "https://i.ytimg.com/vi/T94PHkuydcw/maxresdefault.jpg",
+      "videoUrl": "https://www.youtube.com/embed/T94PHkuydcw",
+      "id": 8
+    },
+    {
+      "title": "\"Yer a wizard, Harry\" ",
+      "coverImg": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/05/Harry-Potter-Movies-in-Order.jpg",
+      "videoUrl": "https://www.youtube.com/embed/nnD8FKXzIGs",
+      "id": 9
+    }
+  ],
+  "categories": [
+    {
+      "categoryName": "comedy",
+      "videos": [],
+      "id": 1
+    },
+    {
+      "categoryName": "songs",
+      "videos": [
+        {
+          "title": "Kun Faya Kun Full Video Song Rockstar",
+          "coverImg": "https://i.ytimg.com/vi/T94PHkuydcw/maxresdefault.jpg",
+          "videoUrl": "https://www.youtube.com/embed/T94PHkuydcw",
+          "id": 8
+        },
+        {
+          "title": "Iktara Full Video - Wake Up Sid",
+          "coverImg": "https://i.ytimg.com/vi/ZlOZktsODpA/maxresdefault.jpg",
+          "videoUrl": "https://www.youtube.com/embed/fSS_R91Nimw",
+          "id": 7
+        }
+      ],
+      "id": 2
+    },
+    {
+      "categoryName": "vlogs",
+      "videos": [
+        {
+          "title": "Here we start our road trip",
+          "coverImg": "https://i.ytimg.com/vi/xZdFnFS1KlI/sddefault.jpg",
+          "videoUrl": "https://www.youtube.com/embed/xZdFnFS1KlI",
+          "id": 5
+        }
+      ],
+      "id": 3
+    },
+    {
+      "categoryName": "Trending",
+      "videos": [
+        {
+          "title": "All The Spider-Men Discover Their Powers",
+          "coverImg": "https://www.looper.com/img/gallery/all-of-spider-mans-powers-explained/l-intro-1645123488.jpg",
+          "videoUrl": "https://www.youtube.com/embed/G0edEjt4Lzo",
+          "id": 6
+        },
+        {
+          "title": "\"Yer a wizard, Harry\" ",
+          "coverImg": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/05/Harry-Potter-Movies-in-Order.jpg",
+          "videoUrl": "https://www.youtube.com/embed/nnD8FKXzIGs",
+          "id": 9
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "histories": [
+    {
+      "dateTime": "2024/05/09 11:17:07 AM",
+      "title": "Iktara Full Video - Wake Up Sid",
+      "videoUrl": "https://www.youtube.com/embed/fSS_R91Nimw",
+      "id": 4
+    },
+    {
+      "dateTime": "2024/05/09 11:17:13 AM",
+      "title": "Kun Faya Kun Full Video Song Rockstar",
+      "videoUrl": "https://www.youtube.com/embed/T94PHkuydcw",
+      "id": 5
+    },
+    {
+      "dateTime": "2024/05/09 11:18:36 AM",
+      "title": "Iktara Full Video - Wake Up Sid",
+      "videoUrl": "https://www.youtube.com/embed/fSS_R91Nimw",
+      "id": 6
+    },
+    {
+      "dateTime": "2024/05/09 12:12:13 PM",
+      "title": "All The Spider-Men Discover Their Powers",
+      "videoUrl": "https://www.youtube.com/embed/G0edEjt4Lzo",
+      "id": 7
+    },
+    {
+      "dateTime": "2024/05/09 12:12:16 PM",
+      "title": "Kun Faya Kun Full Video Song Rockstar",
+      "videoUrl": "https://www.youtube.com/embed/T94PHkuydcw",
+      "id": 8
+    },
+    {
+      "dateTime": "2024/05/14 11:12:11 AM",
+      "title": "All The Spider-Men Discover Their Powers",
+      "videoUrl": "https://www.youtube.com/embed/G0edEjt4Lzo",
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+Server Creation
+---------------
+
+1. Create a new folder for Server
+
+    express - If express is used to create a server, it's called express server[server - node - express]. If server is created 
+              manually [not fake, a real one],for that we use a Framework called Express.
+
+    json server - it is a Library which is used to create a fake server, we can create a fake server with node using this library.
+
+    For now, we need json server
+
+    We need,
+        npm - mode modules
+        package.json
+
+2. Create a package.json in node server   
+    -> For this, we use a command = npm init
+
+3. install json-server - npm i json-server@0.17.4
+   
+Server response is based on api request
+
+api request
+-----------
+-> add video [title,cover image url, video url] = post
+        An api consist of two portions, Header and Body[here title,cover image and video url in given inside body in json type]
+
+-> access videos = get
+-> add new category = category name - post
+-> access category = get
+-> drag and drop - update category
+-> add history - date,title,url,time = post
+-> get history = get
+-> video delete - id- delete
+-> category delete - id - delete
+-> history delete - id - delete
+
+import 
+------
+
+import - top of the file
+require - can use anywhere in a file
+
+To connect server with frontend, we use a library = CORS[ cross origin resource sharing ]
+-----------------------------------------------------------------------------------------
+npm i cors
+
+Data conversion( json - js) before resolving each api request
+-------------------------------------------------------------
+middlewares - It has the power to control an api request
+              A request handler with access to the application's request-response cycle is known as middleware. 
+              It's a function that holds the request object, the response object, and the middleware function.
+              Middleware can also send the response to the server before the request.
+2 types
+-> application specific middleware - If you want to control all request in the server
+-> router specific middleware - Only specific request to control
+------------------------------------------------------------------------------------------------------------------------------
+nodemon - provide automatic recombilation
+
+npm i -g nodemon
+
+nodemon npm start
+
+
+drag and drop
+-------------
+onDragStart() - an event used to identify the start of dragging
+dragOver() - to check  if the object dragged reached the destination
+onDrop() - an event if dragged eobject is dropped
+
+All event has target value
+
+update api
+---------
+
+method - PUT,PATCH
+
+STEPS=>
+
+1. Access the category to be updated
+      {
+      "categoryName": "comedy",
+      "videos": [],
+      "id": 1
+    },
+
+2. Add the video to be added
+
+              {
+      "title": "Here we start our road trip",
+      "coverImg": "https://i.ytimg.com/vi/xZdFnFS1KlI/sddefault.jpg",
+      "videoUrl": "https://www.youtube.com/embed/xZdFnFS1KlI",
+      "id": 5
+    }
+
+3. videos in category should be added
+                  {
+      "categoryName": "comedy",
+      "videos": [
+        
+              {
+      "title": "Here we start our road trip",
+      "coverImg": "https://i.ytimg.com/vi/xZdFnFS1KlI/sddefault.jpg",
+      "videoUrl": "https://www.youtube.com/embed/xZdFnFS1KlI",
+      "id": 5
+    }
+      ],
+      "id": 1
+    }
+
+4. update the changed data in backend
+
+axios.put('url/id',updatedData as bodydata) id is the data which needs to be changed
